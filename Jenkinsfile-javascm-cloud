@@ -1,7 +1,7 @@
 pipeline {
     agent any 
     stages {
-        stage('Clone git and clean and try') { 
+        stage('Clone git and clean and Try') { 
             steps {
                 sh "mvn clean"
             }
